@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     
     fileprivate func updateLabel(location: CLLocationCoordinate2D) {
         latLabel.text = "Lat: \(location.latitude)"
-        lonLabel.text = "Lat: \(location.longitude)"
+        lonLabel.text = "Lon: \(location.longitude)"
     }
 }
 
